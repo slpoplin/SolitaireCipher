@@ -1,0 +1,3 @@
+* Sender encrypts a file - Sender opens up a shell, types a command to encrypt a file
+* Receiver decrypts file - Receiver opens up a shell, types a command to decrypt a file
+* Sender/Receiver generate deck - Either sender or receiver opens up a shell, types a command and generates a deck
