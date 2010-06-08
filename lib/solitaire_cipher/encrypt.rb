@@ -4,8 +4,9 @@ module SolitaireCipher
 			@output = output
 		end
 	
-		def run
-			@output.puts 'Enter text to encrypt:'
+		def run(plaintext=nil)
+			
+#			@output.puts "GLNCQ MJAFF FVOMB JIYCB"
 		end
 	end
 end

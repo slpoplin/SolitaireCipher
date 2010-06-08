@@ -6,5 +6,5 @@ Feature: sender encrypts text with default deck
 	
 	Scenario: encrypt the text "Code in Ruby, live longer!"
 		Given default deck key stream "DWJXH YRFDG TMSHP UURXJ"
-		When I run the encrypt command
+		When I run the encrypt command using plaintext, "Code in Ruby, live longer!"
 		Then I should see the cipher text "GLNCQ MJAFF FVOMB JIYCB"
